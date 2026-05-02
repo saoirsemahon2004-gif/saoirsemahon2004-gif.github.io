@@ -7,73 +7,7 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Inter:wght@300;400&display=swap" rel="stylesheet">
 
-  <style>
-    body {margin:0;font-family:'Inter',sans-serif;background:#FFEBED;color:#27153D}
-    header{display:flex;justify-content:space-between;align-items:flex-start;padding:30px 50px}
-    h1{font-family:'Playfair Display',serif;margin:0}
-    header p{margin:4px 0 0;color:#3E2E4A}
 
-    nav a{margin-left:30px;text-decoration:none;color:#27153D;transition:0.2s;display:inline-block}
-    nav a:hover{transform:scale(1.08);opacity:0.7}
-    nav a:active{transform:scale(1.2)}
-
-    section{padding:100px 50px;opacity:0;transform:translateY(30px);transition:0.8s}
-    section.visible{opacity:1;transform:translateY(0)}
-
-    h2{font-family:'Playfair Display',serif;font-weight:400;margin-bottom:20px}
-
-    /* ABOUT SECTION LAYOUT */
-    .about-container{
-      display:flex;
-      gap:60px;
-      align-items:center;
-      max-width:1000px;
-    }
-
-    .about-container img{
-      width:300px;
-      height:400px;
-      object-fit:cover;
-      border-radius:16px;
-    }
-
-    .about-text{
-      max-width:500px;
-      line-height:1.6;
-    }
-
-    .works-grid{display:flex;gap:60px;justify-content:center;flex-wrap:wrap}
-    .work-item{text-align:center}
-    .work-item img{width:220px;height:220px;object-fit:cover;border-radius:16px;display:block;margin-bottom:10px;transition:0.4s}
-    .work-item img:hover{transform:scale(1.05)}
-
-    footer{padding:50px;text-align:center;background:#F6B6B7}
-
-    .social-section{padding:80px 20px 120px}
-
-    .social-header{text-align:center;margin-bottom:40px}
-
-    .social-header a{text-decoration:none;color:#27153D;font-size:14px;opacity:0.7}
-
-    .social-feed{display:flex;gap:20px;overflow-x:auto;padding:10px 40px;scroll-snap-type:x mandatory}
-    .social-feed::-webkit-scrollbar{display:none}
-
-    .social-item{min-width:220px;height:280px;border-radius:16px;overflow:hidden;scroll-snap-align:start;position:relative}
-
-    .social-item img{width:100%;height:100%;object-fit:cover;transition:0.4s}
-
-    .social-item:hover img{transform:scale(1.06)}
-
-    .social-item a{position:absolute;inset:0}
-
-    /* mobile fix */
-    @media(max-width:768px){
-      .about-container{flex-direction:column}
-      .about-container img{width:100%;height:auto}
-    }
-
-  </style>
-</head>
 <body>
 
 <header>
@@ -88,6 +22,13 @@
     <a href="#contact">Contact</a>
   </nav>
 </header>
+  <section class="hero">
+  <img src="hero.jpg" alt="Hero Image">
+  <div class="hero-text">
+    <h2>Saoirse Mahon</h2>
+    <p>Photography & Visual Storytelling</p>
+  </div>
+</section>
 
 <section id="about">
   <h2>About Me</h2>
