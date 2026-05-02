@@ -98,5 +98,11 @@ h1{font-family:'Playfair Display';padding:30px}
 .container{padding:40px;max-width:800px}
 .work{margin-bottom:40px}
 
+body{margin:0;font-family:'Inter';background:#FFEBED;color:#27153D}
+h1{font-family:'Playfair Display';padding:30px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;padding:40px}
+.gallery img{width:100%;height:300px;object-fit:cover;border-radius:12px}
+
+
   </style>
 </head>
