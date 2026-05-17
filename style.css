@@ -64,18 +64,17 @@ nav a:active {
 }
 
 /* ================= SECTIONS ================= */
-section {
+.fade-section {
   padding: 100px 50px;
   opacity: 0;
   transform: translateY(30px);
-  transition: 0.8s;
+  transition: 0.8s ease;
 }
 
-section.visible {
+.fade-section.visible {
   opacity: 1;
   transform: translateY(0);
 }
-
 /* ================= ABOUT ================= */
 .about-container {
   display: flex;
